@@ -16,7 +16,6 @@ namespace EquationsTest
             //Сравнение действительного значение функции от вычисляемого 
             //(в методе записываются значения степеней в зависимости от вида функции)
             Assert.AreEqual(62, equastions.FunctionXY(1, 1));
-
             Assert.AreEqual(226, equastions.FunctionXY(2, 2));
             Assert.AreEqual(950, equastions.FunctionXY(3, 3));
             Assert.AreEqual(4474, equastions.FunctionXY(4, 4));
